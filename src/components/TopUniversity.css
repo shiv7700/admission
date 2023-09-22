@@ -1,0 +1,8 @@
+.top-university-container{
+    background-image: url('../assets/ggwp.png');
+    background-size: 100% 100%;
+}
+
+.university-card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

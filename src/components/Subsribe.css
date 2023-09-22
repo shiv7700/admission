@@ -1,0 +1,33 @@
+.input-1{
+    background-image: url('../assets/c-1.png');
+    background-position: 10px 12px;
+    background-size: 21px 16px;
+    background-repeat: no-repeat;
+}
+
+.input-2{
+    background-image: url('../assets/c-2.png');
+    background-position: 10px 12px;
+    background-size: 21px 16px;
+    background-repeat: no-repeat;}
+
+.input-3{
+    background-image: url('../assets/c-3.png');
+    background-position: 10px 12px;
+    background-size: 21px 16px;
+    background-repeat: no-repeat;
+}
+
+/* copy for submit button */
+.submit{
+    position: relative;
+    bottom: 29px;
+    left: 20px;
+}
+
+@media only screen and (max-width:786px){
+   .thoda-left{
+       margin-left: 15px;
+    }
+    
+}

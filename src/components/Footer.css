@@ -1,0 +1,8 @@
+.footer-top-container{
+    background-image: url('../assets/ft.png');
+    /* background-size: 100% 100%; */
+}
+
+.links > div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

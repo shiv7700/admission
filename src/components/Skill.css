@@ -1,0 +1,16 @@
+.skill-container{
+    background-image: url('../assets/pink-bg.png');
+    background-size: 100% 100%;
+}
+
+.search-for{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url('../assets/search.png');
+    background-position: 448px 13px;
+    background-size: 21px 16px;
+    background-repeat: no-repeat;
+}
+
+.i-1,.i-2,.i-3{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

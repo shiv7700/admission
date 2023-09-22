@@ -1,0 +1,28 @@
+.table-container{
+    background-image:  url('../assets/ft.png');
+    background-size: 100% 100%;
+}
+
+tr{
+    padding: 2rem;
+}
+
+td{
+    padding: 0.8rem;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.asd{
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+
+.remove{
+    border-bottom: 0;
+}
+
+.middle{
+    border-right: 1px solid;
+    border-left: 1px solid;
+}

@@ -1,0 +1,12 @@
+.top-college-container{
+    background-image: url('../assets/near-bg.png');
+    background-size: 100% 100%;
+}
+
+
+/* copy for view more button */
+.more{
+    position: relative;
+    bottom: 29px;
+    left: 14px;
+}
