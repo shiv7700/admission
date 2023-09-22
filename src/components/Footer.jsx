@@ -17,7 +17,7 @@ const UpperFooter = () => {
     return(
         <>
         <div className='footer-top-container py-6 xl:pt-2 xl:pb-5'>
-        <div className='footer-top flex flex-wrap justify-between pt-4 px-20'>
+        <div className='footer-top flex flex-wrap justify-between sm:justify-between pt-4 px-20'>
             <div>
                 <div>
                     <h4 className='text-xl font-semibold'>Top Colleges</h4>
@@ -88,7 +88,7 @@ const UpperFooter = () => {
             </div>
 
             <div className='special-footer'>
-                <ul className='cursor-pointer mt-16'>
+                <ul className='cursor-pointer mt-16 sm:mt-16'>
                     <li>Australia </li>
                     <li>Germany</li>
                     <li>Sweden</li>
@@ -128,7 +128,7 @@ const TopBottomFooter = () => {
         <div className='flex flex-wrap space-x-5 justify-center'>
             <div> <h4 className='text-xl font-bold mt-2'>Other Links : </h4> </div>
             <div className='links flex flex-wrap justify-center space-x-3 mb-5'>
-                <div className='bg-[#FFFFFF] rounded-md text-center w-40 md:py-1 md:w-[10rem]  hover:bg-[#FFA200] cursor-pointer mt-2'>Admission in</div>
+                <div className='adm bg-[#FFFFFF] rounded-md text-center w-40 md:py-1 md:w-[10rem]  hover:bg-[#FFA200] cursor-pointer mt-2'>Admission in</div>
                 <div className='bg-[#FFFFFF] rounded-md text-center w-40 md:py-1 md:w-[10rem] hover:bg-[#FFA200] cursor-pointer mt-2'>Contact Us</div>
                 <div className='bg-[#FFFFFF] rounded-md text-center w-40 md:py-1 md:w-[10rem] hover:bg-[#FFA200] cursor-pointer mt-2'>Career</div>
                 <div className='bg-[#FFFFFF] rounded-md text-center w-40 md:py-1 md:w-[10rem] hover:bg-[#FFA200] cursor-pointer mt-2'>Terms & Conditions</div>

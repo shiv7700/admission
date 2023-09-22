@@ -37,7 +37,7 @@ const App = () => {
     <CompanyLink />
     <Testimoial />
     <Download />
-    <Footer />
+    <Footer /> 
     </>
   )
 }

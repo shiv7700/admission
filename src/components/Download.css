@@ -1,0 +1,5 @@
+@media only screen and (max-width: 600px){
+    .download-container{
+        margin-left: -40px;
+    }
+}
