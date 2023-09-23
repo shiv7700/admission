@@ -1,4 +1,4 @@
-import './Companylink.css'
+import './CompanyLink.css'
 
 const CompanyLink = () => {
   return (
