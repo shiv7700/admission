@@ -50,10 +50,10 @@ const Latest = () => {
 };
 
 const LatestCard = () => {
-  return <div className="latest-cards flex flex-wrap md:justify-evenly mt-10">
+  return <div className="latest-cards flex flex-wrap justify-center md:justify-evenly mt-10">
 
     {/* 1st card */}
-        <div className="card-1 w-3/12 bg-[#FFFFFF] rounded-lg">
+        <div className="card-1 w-96 bg-[#FFFFFF] rounded-lg mt-5">
 
     <div> <img src={cardOne} alt="card two" /> </div>
     <div className="me-2 mt-2 flex">
@@ -83,7 +83,7 @@ const LatestCard = () => {
     
 
     {/* 2nd card */}
-    <div className="card-2 w-3/12 bg-[#FFFFFF] rounded-lg">
+    <div className="card-2 w-96 bg-[#FFFFFF] rounded-lg mt-5">
 
     <div> <img src={cardThree} alt="card two" /> </div>
     <div className="me-2 mt-2 flex">
@@ -107,12 +107,12 @@ const LatestCard = () => {
     </div>
 
   {/* orange box */}
-    <div className="w-full h-2 mt-[3.3rem] bg-[#FFA200] "></div>
+    <div className="w-full h-2 mt-[4.7rem] bg-[#FFA200] "></div>
     </div>
 
 
     {/* 3rd card */}
-    <div className="card-3 w-3/12 bg-[#FFFFFF] rounded-lg">
+    <div className="card-3 w-96 bg-[#FFFFFF] rounded-lg mt-5">
 
     <div> <img src={cardTwo} alt="card two" /> </div>
     <div className="me-2 mt-2 flex">
