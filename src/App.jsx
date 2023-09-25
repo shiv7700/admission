@@ -18,11 +18,12 @@ import b1 from './assets/know-clg.png'
 import b2 from './assets/know-gn.png'
 import Skill from './components/Skill'
 import Header from './components/Header'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
     <>
-    <Header />
+    <Navbar />
     <Skill />
     <TopCollege />
     <TopCollection />
