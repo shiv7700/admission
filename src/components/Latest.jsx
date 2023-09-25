@@ -21,13 +21,13 @@ const Latest = () => {
 
       <div className="flex justify-between mx-5 mt-5">
         <div className="flex flex-wrap ms-16 ">
-          <div className="p-2 border-black border-[1px] rounded-lg hover:text-[#EBA332] hover:border-[#EBA332] hover:cursor-pointer mx-2">
+          <div className="p-2 border-black border-[1px] rounded-lg hover:text-[#EBA332] hover:border-[#EBA332] hover:cursor-pointer mx-2 mt-2 sm:mt-0 ">
             Exam News
           </div>
-          <div className="p-2 border-black border-[1px] rounded-lg hover:text-[#EBA332] hover:border-[#EBA332] hover:cursor-pointer mx-2">
+          <div className="p-2 border-black border-[1px] rounded-lg hover:text-[#EBA332] hover:border-[#EBA332] hover:cursor-pointer mx-2 mt-2 sm:mt-0 ">
             College News
           </div>
-          <div className="p-2 border-black border-[1px] rounded-lg hover:text-[#EBA332] hover:border-[#EBA332] hover:cursor-pointer mx-2">
+          <div className="p-2 border-black border-[1px] rounded-lg hover:text-[#EBA332] hover:border-[#EBA332] hover:cursor-pointer mx-2 mt-2 sm:mt-0 ">
             Admission News
           </div>
         </div>

@@ -10,7 +10,7 @@ const Skill = () => {
   return (
     <div className='skill-container w-[100%] flex flex-wrap justify-around pt-16'>
 
-        <div>
+        <div className='ms-5 sm:ms-0'>
 
         <h1 className='text-4xl font-medium text-[#221553]'>Learn New Skills Online <br /> with Top <span className='text-[#FFA200] font-bold'>Educators</span> </h1>
         <p className='text-[#221553] font-normal mt-5'>Build skills with courses, certificates and degrees online <br /> from world-class universities and companies.</p>
@@ -26,7 +26,7 @@ const Skill = () => {
             <div> <img className='w-6' src={s3} alt="" /> </div> 
             <div> Get Your Counselling</div>
                 </div>
-            <div className='p-2 text-[#311C61] font-medium bg-white flex space-x-2 rounded i-3 hover:cursor-pointer hover:bg-[#FFA200]'>
+            <div className='p-2 text-[#311C61] font-medium bg-white flex space-x-2 rounded i-3 hover:cursor-pointer hover:bg-[#FFA200] mt-5 sm:mt-0'>
             <div> <img className='w-4' src={s2} alt="" /> </div> 
             <div>Diploma in Engineering in Gurgaon</div>    
             </div>
@@ -35,7 +35,7 @@ const Skill = () => {
         </div>
 
         {/* images container*/}
-        <div className='flex flex-wrap space-x-36'>
+        <div className='flex flex-wrap space-x-36 neeche'>
 
         <div> <img className='w-[15rem]' src={cc1} alt="" /> <div className='bg-[#909EE7] text-center text-sm p-2 rounded-lg relative -top-52 right-40'>Lorem ipsum is placeholder <br /> text commonly used in</div>  </div>
 

@@ -6,11 +6,11 @@ const ExploreEng = () => {
     <div className='explore-eng-container w-[90%] mt-10 mb-10 mx-auto pt-5 pb-6 rounded-xl'>
 
         <h1 className='text-center text-3xl font-semibold'>Explore Engineering Courses</h1>
-        <p className='text-center mt-1'>Lorem ipsum is placeholder text commonly previewing visual mockups.</p>
+        <p className='text-center mt-1 mx-2 sm:mx-0'>Lorem ipsum is placeholder text commonly previewing visual mockups.</p>
 
         {/*agencies  */}
         <div className="flex flex-wrap justify-between mx-5 mt-5">
-        <div className="flex flex-wrap ms-16 ">
+        <div className="flex flex-wrap lg:ms-16 ">
           <div className="p-2 rounded-lg mx-2">
           Agencies :
           </div>

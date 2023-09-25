@@ -1,3 +1,329 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media screen and (min-width:100px) and (max-width:1100px){
+
+    .top-bar-right{
+        display: none;
+    }
+
+    .mobile-navbar{
+        display: block !important;
+    }
+
+
+   
+
+    .top-bar-left{
+        width: 100%;
+        height: fit-content;
+        display: none;
+        
+    }
+
+    .topbar-inner {
+        display: block !important;
+        width: 100%;
+        padding: 0;
+    }
+
+    .top-bar-left::after {
+        content: none;
+        position: absolute;
+        width: 59px;
+        background-image: linear-gradient(to right);
+        background-color: rgba(56,33,113,255);
+        height: 100%;
+        content: "";
+        bottom: 0px;
+        right: -34px;
+        transform: skew(323deg);
+        z-index: 2;
+        display: none;
+    }
+    
+    .top-bar-left:before, .topbar-section:after {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: calc(100% - 450px);
+        content: "";
+        transform: skew(-37deg);
+        display: none;
+    }
+    
+    .top-bar-left:before {
+        right: -44px;
+        border-left: 10px solid #fff;
+        z-index: 2;
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:280px) and (max-width:851px){
+    .gujrat-card{
+        width: 100px;
+    }
+
+    
+}
+
+.mobile-navbar{
+    display: none;
+}
+/* */
+
+
+.topbar-section { 
+    padding: 0;
+    z-index: 32;
+    width: 100%;
+    top: 0;
+}
+
+.topbar-section .topbar-inner {
+    display: flex;
+    width: 100%;
+    padding: 0;
+}
+
+.top-bar-left {
+    
+    position: relative;
+    padding: 40px;
+    background-image: linear-gradient(to right);
+    background-color: rgba(56,33,113,255);
+}
+
+.top-bar-left::after {
+    position: absolute;
+    width: 59px;
+    background-image: linear-gradient(to right);
+    background-color: rgba(56,33,113,255);
+    height: 100%;
+    content: "";
+    bottom: 0px;
+    right: -34px;
+    transform: skew(323deg);
+    z-index: 2;
+}
+
+.top-bar-left:before, .topbar-section:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: calc(100% - 450px);
+    content: "";
+    transform: skew(-37deg);
+}
+
+.top-bar-left:before {
+    right: -44px;
+    border-left: 30px solid #fff;
+    z-index: 2;
+}
+
+.top-bar-right {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    background-image: linear-gradient(to right);
+    background-color: rgba(56,33,113,255);
+
+}
+
+.top-bar-right {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+.educators{
+    background-image: url(../assets/Group1.png);
+    background-size: cover;
+    margin: auto;
+    
+}
+
+.foot{
+    background-image: url(../assets/Group6183.png);
+    background-size: cover;
+}
+
+.gurgaon {
+    width: 90%;
+    margin: auto;
+    background-image: url(../assets/Group6121.png);
+    background-size: 100% 100%;
+    margin-top: 30px;
+}
+
+.explore{
+    width: 90%;
+    margin: auto;
+    background-image: url(../assets/Image51.png);
+    background-size: 100% 100%;
+    margin-top: 30px;
+}
+
+.stories{
+    width: 90%;
+    margin: auto;
+    background-image: url(../assets/Group6058.png);
+    background-size: 100% 100%;
+    margin-top: 30px;
+}
+
+.exams{
+    width: 90%;
+    margin: auto;
+    background-image: url(../assets/GradientBackground.png);
+    background-size: 100% 100%;
+    margin-top: 30px;
+}
+
+.testinomials{
+    width: 90%;
+    margin: auto;
+    background-image: url(../assets/Group6732.png);
+    background-size: 100% 100%;
+    margin-top: 30px;
+}
+
+.download{
+    width: 90%;
+    margin: auto;
+    background-size: 100% 100%;
+    margin-top: 30px;
+}
+
+.border-gurgaon{
+    border-bottom: 1px solid rgb(148, 19, 19);
+    margin-top: 5px;
+  }
+
+.border-univ{
+    border-bottom: 1px solid rgb(97, 94, 94);
+    margin-top: 5px;
+}  
+
+.diploma {
+    width: 90%;
+    margin: auto;
+    background-image: url(../assets/Group1.png);
+    background-size: 100% 100%;
+    margin-top: 30px;
+}
+
+.ranking{
+    width: 90%;
+    margin: auto;
+    background-image: url(../assets/Image51.png);
+    background-size: 100% 100%;
+    margin-top: 30px;
+}
+
+.click{
+    width: 90%;
+    margin: auto;
+    background-image: url(../assets/Group6742.png);
+    background-size: 100% 100%;
+    margin-top: 30px;
+}
+
+.universities{
+    width: 90%;
+    margin: auto;
+    background-image: url(../assets/Group6066.png);
+    background-size: 100% 100%;
+    margin-top: 30px;
+}
+
+.gujrat-card{
+    width: 355px;
+}
+
+#navbar3::before{
+    content: "";
+    border:  solid #fff;
+    background-color: #fff;
+    transform: skewX(335deg);
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    top: 0;
+    z-index: 99;
+    padding: 20px;
+    margin-left: -10px;
+  }
+
+.bg-test{
+    background-color: rgb(255, 162, 0);
+}
+
+
+
+.input-1{
+    background-image: url(../assets/email.png);
+    background-repeat: no-repeat;
+    background-position: 10px 14px;
+    background-size: 22px 20px;
+}
+
+.input-2{
+    background-image: url(../assets/phoneintalk.png);
+    background-repeat: no-repeat;
+    background-position: 10px 14px;
+    background-size: 22px 20px;
+}
+
+.input-3{
+    background-image: url(../assets/Group6731.png);
+    background-repeat: no-repeat;
+    background-position: 10px 14px;
+    background-size: 22px 20px;
+}
+
+.college-table{
+    border-collapse: collapse;
+    
+    margin: 32px auto;
+}
+
+.collge-table tr{
+    border: 1px solid;
+    height: 50px;
+    
+    background-color: #fff; 
+}
+
+.college-table td{
+    border: 1px solid;
+    padding: 10px;
+}
+
+.college-table th{
+    border: 1px solid;
+    padding: 7px;
+}
+
+.border-stories{
+    border: 6px solid rgb(255, 162, 0);
+
+}
+
+
+

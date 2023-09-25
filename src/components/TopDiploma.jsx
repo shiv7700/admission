@@ -38,7 +38,7 @@ const DiplomaCards = () => {
 }
 
 const DiplomaCard = () => {
-  return <div className='diploma-card bg-[#FFFFFF] border-[1px] border-[#EBA332] rounded w-60 pt-4 pb-4 px-4'>
+  return <div className='diploma-card bg-[#FFFFFF] border-[1px] border-[#EBA332] rounded w-60 pt-4 pb-4 px-4 mt-5'>
 
     <div className='flex flex-wrap'>
       <div> <img className='w-14' src={logo} /> </div>

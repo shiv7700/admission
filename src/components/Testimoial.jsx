@@ -4,7 +4,7 @@ import dp from '../assets/dp.png'
 
 const Testimoial = () => {
   return (
-    <div className='testimoial-container flex flex-wrap lg:justify-center space-x-40 w-[90%] mx-auto pt-8 pb-5'>
+    <div className='testimoial-container flex flex-wrap justify-center lg:justify-center space-x-2 lg:space-x-40 w-[90%] mx-auto pt-8 pb-5'>
 
         <div>
         <img className='w-80' src={icon} alt="" />

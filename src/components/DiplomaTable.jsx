@@ -7,17 +7,17 @@ const DiplomaTable = () => {
         <p className='text-center mt-1'>Lorem ipsum is placeholder text commonly previewing visual mockups.</p>
 
         {/* agencies */}
-        <div className='flex flex-wrap mt-10 space-x-5 ms-12'>
-            <div className='px-2 py-2' >Agencies : </div>
-            <div className='border-[1px] border-black text-center px-2 py-2 hover:bg-[#EBA332]  hover:cursor-pointer '>NIRF</div>
-            <div className='border-[1px] border-black text-center px-2 py-2 hover:bg-[#EBA332]  hover:cursor-pointer '>Indiatoday</div>
-            <div className='border-[1px] border-black text-center px-2 py-2 hover:bg-[#EBA332]  hover:cursor-pointer '>Outlook</div>
-            <div className='border-[1px] border-black text-center px-2 py-2 hover:bg-[#EBA332]  hover:cursor-pointer '>The Week</div>
-            <div className='border-[1px] border-black text-center px-2 py-2 hover:bg-[#EBA332]  hover:cursor-pointer '>ΤΟΙ</div>
-            <div className='border-[1px] border-black text-center px-2 py-2 hover:bg-[#EBA332]  hover:cursor-pointer '>The India Express </div>
-            <div className='border-[1px] border-black text-center px-2 py-2 hover:bg-[#EBA332]  hover:cursor-pointer '>Times Engineering</div>
-            <div className='border-[1px] border-black text-center px-2 py-2 hover:bg-[#EBA332]  hover:cursor-pointer '>Successful CDs</div>
-            <div className='border-[1px] border-black text-center px-2 py-2 hover:bg-[#EBA332]  hover:cursor-pointer '>Chronicle </div>
+        <div className='flex flex-wrap mt-10 space-x-2 sm:space-x-5 ms-5 sm:ms-12 '>
+            <div className='px-2 py-2 mt-4' >Agencies : </div>
+            <div className='border-[1px] border-black text-center px-2 py-2 mt-4 hover:bg-[#EBA332]  hover:cursor-pointer '>NIRF</div>
+            <div className='border-[1px] border-black text-center px-2 py-2 mt-4 hover:bg-[#EBA332]  hover:cursor-pointer '>Indiatoday</div>
+            <div className='border-[1px] border-black text-center px-2 py-2 mt-4 hover:bg-[#EBA332]  hover:cursor-pointer '>Outlook</div>
+            <div className='border-[1px] border-black text-center px-2 py-2 mt-4 hover:bg-[#EBA332]  hover:cursor-pointer '>The Week</div>
+            <div className='border-[1px] border-black text-center px-2 py-2 mt-4 hover:bg-[#EBA332]  hover:cursor-pointer '>ΤΟΙ</div>
+            <div className='border-[1px] border-black text-center px-2 py-2 mt-4 hover:bg-[#EBA332]  hover:cursor-pointer '>The India Express </div>
+            <div className='border-[1px] border-black text-center px-2 py-2 mt-4 hover:bg-[#EBA332]  hover:cursor-pointer '>Times Engineering</div>
+            <div className='border-[1px] border-black text-center px-2 py-2 mt-4 hover:bg-[#EBA332]  hover:cursor-pointer '>Successful CDs</div>
+            <div className='border-[1px] border-black text-center px-2 py-2 mt-4 hover:bg-[#EBA332]  hover:cursor-pointer '>Chronicle </div>
         </div>
 
         {/* table */}

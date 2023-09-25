@@ -11,12 +11,12 @@ const TopCollege = () => {
 
         <div className='flex flex-wrap justify-evenly space-x-12'>
         
-        <div className='flex flex-wrap ms-80 space-x-2'>
+        <div className='flex flex-wrap justify-evenly  ms-20 xl:ms-80 space-x-2'>
             <div> <img className='w-14' src={head} alt="" /> </div>
             <div> <h1 className='text-3xl font-semibold'>Top Colleges Near - Gurgaon</h1> </div>
         </div>
         
-        <div className='flex flex-wrap space-x-3'>
+        <div className='flex flex-wrap space-x-3 mt-4 lg:mt-0'>
             <div className='p-2 border-[2px] rounded-lg border-[#6D7C7E] hover:cursor-pointer hover:bg-[#FAA307]'>Gurgaon </div>
             <div className='p-2 border-[2px] rounded-lg border-[#FAA307] hover:cursor-pointer hover:bg-[#FAA307]'>Update State/City</div>
         </div>

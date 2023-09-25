@@ -2,7 +2,7 @@ import './TopUniversity.css'
 import head from '../assets/head.png'
 import btn from '../assets/btn.png'
 import col from '../assets/col.png'
-import right from '../assets/right arrow.png'
+// import right from '../assets/right arrow.png'
 import cc1 from '../assets/cc1.png'
 
 const TopUniversity = () => {
@@ -10,7 +10,7 @@ const TopUniversity = () => {
     <div className='top-university-container w-[90%] mt-10 mb-10 mx-auto pt-5 pb-4'>
 
         <div className='flex justify-center'>
-        <div className='flex flex-wrap space-x-2'>
+        <div className='flex flex-wrap justify-center space-x-2'>
             <div> <img className='w-14' src={head} alt="" /> </div>
             <div> <h1 className='text-3xl font-semibold'>Top Universities / Colleges for Diploma in Engineering</h1> </div>
         </div>

@@ -9,7 +9,7 @@ const TopCollection = () => {
     <div className='top-collection-container w-[90%] mt-10 mb-10 mx-auto rounded-lg pt-5 pb-2'>
 
         <div className='flex justify-center'>
-        <div className='flex flex-wrap space-x-2'>
+        <div className='flex flex-wrap justify-center space-x-2'>
             <div> <img className='w-14' src={head} alt="" /> </div>
             <div> <h1 className='text-3xl font-semibold'>Top Collections for Diploma in Engineering</h1> </div>
         </div>
