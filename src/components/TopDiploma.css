@@ -2,3 +2,9 @@
     background-image: url('../assets/cross.png');
     background-size: 100% 100%;
 }
+
+@media only screen and (max-width: 464px){
+    .diploma-card{
+        width: 15rem !important;
+    }
+}
