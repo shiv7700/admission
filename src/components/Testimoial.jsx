@@ -7,7 +7,7 @@ const Testimoial = () => {
     <div className='testimoial-container flex flex-wrap justify-center lg:justify-center space-x-2 lg:space-x-36 w-[90%] mx-auto pt-8 pb-5'>
 
         <div>
-        <img className='w-[25rem]' src={icon} alt="" />
+        <img className='test-img w-[25rem]' src={icon} alt="" />
         </div>
 
         <div>
@@ -19,11 +19,11 @@ const Testimoial = () => {
               <div><h1 className='text-2xl'>TESTIMONIALS</h1></div>
             </div>
             
-            <h1 className='text-5xl mt-4 font-bold text-[#0B2C4D]'>What our students say <br /> about us</h1>
+            <h1 className='text-xl sm:text-5xl mt-4 font-bold text-[#0B2C4D]'>What our students say <br /> about us</h1>
             <hr className='border-[#EBA332] mt-5' />
 
           {/* orange box  */}
-          <div className='bg-[#FFA200] rounded-xl p-5 pt-5 pb-5 mt-10'>
+          <div className='feedback bg-[#FFA200] rounded-xl p-5 pt-5 pb-5 mt-10'>
           <p className='quotes text-center font-semibold'>"Lorem ipsum is placeholder text commonly used <br /> in the graphic, print, and publishing industries for <br /> previewing layouts and visual mockups."</p> 
 
             <div className='flex justify-start mt-5'>

@@ -12,7 +12,7 @@ const TopCollection = () => {
         <div className='flex justify-center'>
         <div className='flex flex-wrap justify-center space-x-2'>
             <div> <img className='w-14' src={head} alt="" /> </div>
-            <div> <h1 className='text-3xl font-semibold'>Top Collections for Diploma in Engineering</h1> </div>
+            <div> <h1 className='collection-heading text-3xl font-semibold'>Top Collections for Diploma in Engineering</h1> </div>
         </div>
         </div>
 

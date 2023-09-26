@@ -6,3 +6,15 @@
 .university-card{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+@media only screen and (max-width: 464px){
+        .university-heading{
+        font-size: 1.1rem !important;
+    }
+    .university-card{
+        width: 15rem !important;
+    }
+    .course-heading{
+        font-size: 0.9rem !important;
+    }
+}

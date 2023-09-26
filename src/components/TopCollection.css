@@ -6,3 +6,14 @@
 .top-collection-cards > div{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+@media only screen and (max-width: 464px){
+    .top-collection-card{
+        width: 14rem !important;
+        flex-wrap: wrap;
+    }
+
+    .collection-heading{
+        font-size: 1.1rem !important;
+    }
+}

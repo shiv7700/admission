@@ -14,7 +14,7 @@ const TopCollege = () => {
         
         <div className='flex flex-wrap justify-evenly  ms-20 xl:ms-80 space-x-2'>
             <div> <img className='w-14' src={head} alt="" /> </div>
-            <div> <h1 className='text-3xl font-semibold'>Top Colleges Near - Gurgaon</h1> </div>
+            <div> <h1 className='top-heading text-3xl font-semibold'>Top Colleges Near - Gurgaon</h1> </div>
         </div>
         
         <div className='flex flex-wrap space-x-3 mt-4 lg:mt-0'>

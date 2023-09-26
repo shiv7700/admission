@@ -22,3 +22,14 @@
     bottom: 29px;
     left: 14px;
 }
+
+@media only screen and (max-width: 464px){
+    .top-heading{
+        font-size: 1.1rem !important;
+    }
+
+    .top-card{
+        width: 14rem !important;
+        flex-wrap: wrap;
+    }
+}

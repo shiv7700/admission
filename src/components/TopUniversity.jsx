@@ -13,7 +13,7 @@ const TopUniversity = () => {
         <div className='flex justify-center'>
         <div className='flex flex-wrap justify-center space-x-2'>
             <div> <img className='w-14' src={head} alt="" /> </div>
-            <div> <h1 className='text-3xl font-semibold'>Top Universities / Colleges for Diploma in Engineering</h1> </div>
+            <div> <h1 className='university-heading text-3xl font-semibold'>Top Universities / Colleges for Diploma in Engineering</h1> </div>
         </div>
         </div>
 
@@ -73,7 +73,7 @@ const UniversityCard = () => {
 
     <hr className='border-[#EBA332] mb-1' />
 
-    <h1 className='text-lg font-medium text-[#0B2C4D]'>B.Tech | M.Tech | BCA | MCA | MBA | D. Pharma <br /> B. Pharma | Polytechnic | B.Ed.....</h1>
+    <h1 className='course-heading text-lg font-medium text-[#0B2C4D]'>B.Tech | M.Tech | BCA | MCA | MBA | D. Pharma <br /> B. Pharma | Polytechnic | B.Ed.....</h1>
 
     <p className='text-gray-500 text-sm mb-2'>Ranked 149 out of 300 NIRF</p>
 

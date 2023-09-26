@@ -24,7 +24,7 @@ import KnowChanceGreen from './components/KnowChanceGreen'
 const App = () => {
   return (
     <>
-    {/* <Navbar /> */}
+    <Navbar />
     <Skill />
     <TopCollege />
     <TopCollection />
