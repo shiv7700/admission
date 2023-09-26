@@ -6,13 +6,17 @@
 .search-for{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-image: url('../assets/search.png');
-    background-position: 448px 13px;
-    background-size: 21px 16px;
+    background-position: 452px 11px;
+    background-size: 18px 18px;
     background-repeat: no-repeat;
 }
 
 .i-1,.i-2,.i-3{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.gradient-bg{
+    background-image: linear-gradient(to right,#9EA0EA,#EDABCD);
 }
 
 @media only screen and (max-width: 1218px){

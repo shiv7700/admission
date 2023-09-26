@@ -18,21 +18,23 @@ import b1 from './assets/know-clg.png'
 import b2 from './assets/know-gn.png'
 import Skill from './components/Skill'
 import Navbar from './components/Navbar'
+import KnowChance from './components/KnowChance'
+import KnowChanceGreen from './components/KnowChanceGreen'
 
 const App = () => {
   return (
     <>
-    <Navbar />
+    {/* <Navbar /> */}
     <Skill />
     <TopCollege />
     <TopCollection />
-    <img className='w-[90%] mx-auto mt-5 mb-5 ' src={b1} alt="" />
+    <KnowChance />
     <TopUniversity />
     <Countries />
     <DiplomaTable />
     <TopStudy />
     <ExploreEng />
-    <img className='w-[90%] mx-auto mt-5 mb-5 ' src={b2} alt="" />
+    <KnowChanceGreen />
     <TopDiploma />
     <Latest />
     <Subsribe />

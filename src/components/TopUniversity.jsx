@@ -2,7 +2,7 @@ import './TopUniversity.css'
 import head from '../assets/head.png'
 import btn from '../assets/btn.png'
 import col from '../assets/col.png'
-// import right from '../assets/right arrow.png'
+import right from '../assets/rt.png'
 import cc1 from '../assets/cc1.png'
 
 const TopUniversity = () => {
@@ -77,21 +77,21 @@ const UniversityCard = () => {
 
     <div className='flex flex-wrap justify-between mb-2'>
       <div className='hover:cursor-pointer hover:text-orange-500'>View all courses & fees</div>
-      <div className='text-black'> &gt; </div>
+      <div className='text-black'> <img className='w-[0.3rem] mt-2 me-1' src={right} alt="" /> </div>
     </div>
 
     <hr className='mb-2' />
 
     <div className='flex flex-wrap justify-between mb-2'>
       <div className='hover:cursor-pointer hover:text-orange-500'>Download Brouchure</div>
-      <div className='text-black'>	&gt; </div>
+      <div className='text-black'>	<img className='w-[0.3rem] mt-2 me-1' src={right} alt="" /> </div>
     </div>
 
     <hr className='mb-2' />
 
     <div className='flex flex-wrap justify-between'>
       <div className='hover:cursor-pointer hover:text-orange-500'>Compare</div>
-      <div className='text-black'> &gt; </div>
+      <div className='text-black'> <img className='w-[0.3rem] mt-2 me-1' src={right} alt="" /> </div>
     </div>
 
     </div>

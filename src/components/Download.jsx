@@ -22,7 +22,7 @@ const Download = () => {
 
 
             <div className='flex mt-4'>
-                <div> <input className='p-2 w-[14rem] sm:w-[28rem] border-[1px] border-black' type="text" placeholder='Enter your mobile number*' /> </div>
+                <div> <input className='mobile-number p-2 w-[14rem] sm:w-[28rem] border-[1px] border-black ' type="text" placeholder='Enter your mobile number*' /> </div>
                 <div className='bg-[#3D373B] text-white px-3 py-3 text-xs hover:cursor-pointer hover:text-orange-500'>SEND LINK</div>
             </div>
 

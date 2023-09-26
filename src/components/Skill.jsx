@@ -37,13 +37,13 @@ const Skill = () => {
         {/* images container*/}
         <div className='flex flex-wrap space-x-36 neeche'>
 
-        <div> <img className='w-[15rem]' src={cc1} alt="" /> <div className='bg-[#909EE7] text-center text-sm p-2 rounded-lg relative -top-52 right-40'>Lorem ipsum is placeholder <br /> text commonly used in</div>  </div>
+        <div> <img className='w-[15rem]' src={cc1} alt="" /> <div className='gradient-bg text-center text-sm p-2 rounded-lg relative -top-52 right-40'>Lorem ipsum is placeholder <br /> text commonly used in</div>  </div>
 
         <div className='flex flex-wrap flex-col'>
 
-        <div> <img className='w-[10rem] -mt-10' src={cc2} alt="" /> <div className='bg-[#909EE7] text-center text-sm p-1 rounded-lg relative -top-32 right-32'>Lorem ipsum is placeholder <br /> text commonly used in</div> </div>
+        <div> <img className='w-[10rem] -mt-10' src={cc2} alt="" /> <div className='gradient-bg text-center text-sm p-1 rounded-lg relative -top-32 right-32'>Lorem ipsum is placeholder <br /> text commonly used in</div> </div>
 
-        <div> <img className='w-[10rem] mt-20' src={cc3} alt="" /> <div className='bg-[#909EE7] text-center text-sm p-1 rounded-lg relative -top-32 right-32'>Lorem ipsum is placeholder <br /> text commonly used in</div> </div>
+        <div> <img className='w-[10rem] mt-20' src={cc3} alt="" /> <div className='gradient-bg text-center text-sm p-1 rounded-lg relative -top-32 right-32'>Lorem ipsum is placeholder <br /> text commonly used in</div> </div>
 
         </div>
 
