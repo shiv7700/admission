@@ -77,7 +77,7 @@ const LatestCard = () => {
     </div>
 
   {/* orange box */}
-    <div className="w-full h-2 mt-14 bg-[#FFA200] "></div>
+    <div className="w-full h-2 mt-[4.3rem] bg-[#FFA200] "></div>
     </div>
 
     
@@ -96,7 +96,7 @@ const LatestCard = () => {
     </div>
 
   {/* read more btn  */}
-    <div className="flex flex-wrap justify-between mt-5 mx-2">
+    <div className="flex flex-wrap justify-between mt-8 mx-2">
       <div className="pt-1 pb-1 px-4 border-[1px] border-black rounded-lg w-28  hover:cursor-pointer hover:bg-[#FFA200]">Read More</div>
       <div className="social-icon flex flex-wrap mt-2">
         <div> <img className="w-5 mx-1 hover:cursor-pointer" src={iconTwo} alt="" /> </div>
@@ -125,7 +125,7 @@ const LatestCard = () => {
     </div>
 
   {/* read more btn  */}
-    <div className="flex flex-wrap justify-between mt-5 mx-2">
+    <div className="flex flex-wrap justify-between mt-8 mx-2">
       <div className="pt-1 pb-1 px-4 border-[1px] border-black rounded-lg w-28  hover:cursor-pointer hover:bg-[#FFA200]">Read More</div>
       <div className="social-icon flex flex-wrap mt-2">
         <div> <img className="w-5 mx-1 hover:cursor-pointer" src={iconTwo} alt="" /> </div>

@@ -11,7 +11,7 @@ const Download = () => {
     <div className='mt-10'>
 
         <div>
-            <h1 className='text-5xl font-bold'>Download App</h1>
+            <h1 className='text-6xl font-semibold'>Download App</h1>
             <p className='text-lg sm:text-xl mt-3 mb-10'>Lorem ipsum is placeholder text commonly used in the <br /> graphic, print, and publishing industries for previewing <br /> layouts and visual mockups.</p>
         </div>
 

@@ -3,6 +3,7 @@ import btn from '../assets/btn.png'
 import head from '../assets/head.png'
 import collection from '../assets/collection.png'
 import arrow from "../assets/arrow.png";
+import white from '../assets/white.png'
 
 const TopCollection = () => {
   return (
@@ -21,10 +22,13 @@ const TopCollection = () => {
     <TopCollectionCards />
 
 
-    <div className='flex justify-center mt-6'>
+    <div className='more-btn flex justify-center mt-5'>
             <div>
-            <img className='btn-submit w-28' src={btn} alt="" />
-            <p className='text-white more text-sm hover:cursor-pointer hover:text-[#EBA332]'>View More →</p>
+        <div> <img className='w-32' src={btn} alt="" /> </div>
+        <div className='flex more-pos space-x-2'> 
+            <h1 className='text-sm text-white ms-3 hover:text-orange-500 hover:cursor-pointer'>View More</h1>
+            <img className='w-4 h-3 mt-[0.4rem]' src={white} alt="" /> 
+            </div>
             </div>
         </div>
 

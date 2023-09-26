@@ -21,13 +21,13 @@ const DiplomaTable = () => {
         </div>
 
         {/* table */}
-        <table className='w-[90%] text-center mx-auto mt-5'>
+        <table className='w-[90%] text-center mx-auto mt-5 '>
 
-        <thead className='bg-[#0B2C4D] text-white'>
+        <thead className='bg-[#0B2C4D] text-white '>
             <tr>
-                <td>College</td>
+                <td className='need'>College</td>
                 <td className='asd'>Ranking</td>
-                <td>Streams</td>
+                <td className='need-2'>Streams</td>
             </tr>
         </thead>
 
@@ -63,12 +63,12 @@ const DiplomaTable = () => {
                 <td>Engineering</td>
             </tr>
         </tbody>
-    <tfoot>
 
+    <tfoot>
     <tr className='bg-white'>
-                <td className='remove'>IIT Kanpur - Indian Institute of Technology - (IITK), Kanpur</td>
+                <td className='remove need-3'>IIT Kanpur - Indian Institute of Technology - (IITK), Kanpur</td>
                 <td className='remove middle'>7 out of 300</td>
-                <td className='remove'>Engineering</td>
+                <td className='remove need-4'>Engineering</td>
             </tr>
     </tfoot>
   

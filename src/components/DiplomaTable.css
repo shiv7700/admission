@@ -20,9 +20,33 @@ td{
 
 .remove{
     border-bottom: 0;
+    border-bottom-left-radius: 10px;
 }
 
 .middle{
     border-right: 1px solid;
     border-left: 1px solid;
 }
+
+tbody tr :nth-child(1){
+    text-align: start;
+}
+
+tfoot tr :nth-child(1){
+    text-align: start;
+}
+
+.need{
+    border-top-left-radius: 10px;
+}
+
+.need-2{
+    border-top-right-radius: 10px;
+}
+
+.need-4{
+    border-bottom-right-radius: 10px;
+}
+
+
+

@@ -11,6 +11,10 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.more-pos{
+    position: relative;
+    bottom: 30px;
+}
 
 /* copy for view more button */
 .more{

@@ -4,6 +4,7 @@ import colg from '../assets/top-clg.png'
 import arrow from "../assets/arrow.png";
 import handle from '../assets/handle.png'
 import btn from '../assets/btn.png'
+import white from '../assets/white.png'
 
 const TopCollege = () => {
   return (
@@ -29,12 +30,24 @@ const TopCollege = () => {
         <TopCards />
 
 
-        <div className='flex justify-center mt-6'>
+        {/* <div className='flex justify-center mt-6'>
             <div>
             <img className='btn-submit w-28' src={btn} alt="" />
             <p className='text-white more text-sm hover:cursor-pointer hover:text-[#EBA332]'>View More →</p>
             </div>
+        </div> */}
+
+        {/* copy for view more button  */}
+        <div className='more-btn flex justify-center mt-5'>
+            <div>
+        <div> <img className='w-32' src={btn} alt="" /> </div>
+        <div className='flex more-pos space-x-2'> 
+            <h1 className='text-sm text-white ms-3 hover:text-orange-500 hover:cursor-pointer'>View More</h1>
+            <img className='w-4 h-3 mt-[0.4rem]' src={white} alt="" /> 
+            </div>
+            </div>
         </div>
+
         {/*container ends here */}
     </div>
   )

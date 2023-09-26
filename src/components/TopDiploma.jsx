@@ -38,7 +38,7 @@ const DiplomaCards = () => {
 }
 
 const DiplomaCard = () => {
-  return <div className='diploma-card bg-[#FFFFFF] border-[1px] border-[#EBA332] rounded w-60 pt-4 pb-4 px-4 mt-5'>
+  return <div className='diploma-card bg-[#FFFFFF] border-[1px] border-[#EBA332] rounded w-[18rem] pt-4 pb-4 px-4 mt-5'>
 
     <div className='flex flex-wrap'>
       <div> <img className='w-14' src={logo} /> </div>
@@ -75,7 +75,7 @@ const DiplomaCard = () => {
 
     </div>
 
-    <div className='bg-[#0B2C4D] text-white flex justify-between rounded mt-4'>
+    <div className='bg-[#0B2C4D] text-white flex justify-between rounded mt-5'>
             <div className='hover:cursor-pointer hover:text-[#EBA332] ms-2'>Application Process</div>
             <div> <img src={arrow}/> </div>
     </div>

@@ -11,7 +11,7 @@ const ExploreEng = () => {
         {/*agencies  */}
         <div className="flex flex-wrap justify-between mx-5 mt-5">
         <div className="flex flex-wrap lg:ms-16 ">
-          <div className="p-2 rounded-lg mx-2">
+          <div className="p-2 rounded-lg mx-2 mt-2">
           Agencies :
           </div>
           <div className="p-2 border-black border-[1px] rounded-lg hover:text-[#EBA332] hover:border-[#EBA332] hover:cursor-pointer mx-2 my-2">
@@ -55,7 +55,7 @@ const ExploreEngCard = () => {
 }
 
 const ExploreCard = () => {
-    return <div className='explore-card border-[1.5px] border-[#EBA332] bg-[#FFFFFF] rounded-lg w-60 mt-5 mx-5 p-4'>
+    return <div className='explore-card border-[1.5px] border-[#EBA332] bg-[#FFFFFF] rounded-lg w-[17rem] mt-5 mx-5 p-4'>
 
         <div className='bg-[#EFEFEF] rounded w-20 px-2 py-2'> <p className='text-sm text-[#ACABAB]'>Full Time</p> </div>
         <div><p className='text-[#112B45] font-semibold text-xl mt-2'>B.Tech Mechanical Engineering</p>
@@ -77,7 +77,7 @@ const ExploreCard = () => {
             </div>
         </div>
 
-        <div className='bg-[#0B2C4D] text-white flex justify-between rounded mt-2'>
+        <div className='bg-[#0B2C4D] text-white flex justify-between rounded mt-5'>
             <div className='hover:cursor-pointer hover:text-[#EBA332] ms-2'>Course Overview</div>
             <div> <img src={arrow}/> </div>
         </div>
